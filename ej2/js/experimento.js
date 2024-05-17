@@ -16,9 +16,9 @@ console.log(fanDeportes)
 let total = alert(`Muchas Gracias ${nombre} por responder a nuestras preguntas`)
 
 let usuario ={
-    nombre = nombre
-    edad = edad
-    deportistaProfesional: function(){
+    nombre: nombre,
+    edad: edad,
+    deportistaProfesional: function(x){
         if (fanDeportes){
             console.log("Si, soy fan de los deportes")
         }
@@ -26,3 +26,5 @@ let usuario ={
         }
     }
 }
+console.log(usuario.deportistaProfesional(fanDeportes))
+
