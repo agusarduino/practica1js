@@ -1,1 +1,1 @@
-# practica1js
+# practica2js
